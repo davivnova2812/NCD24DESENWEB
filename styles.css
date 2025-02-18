@@ -1,0 +1,93 @@
+/* General Body Styling */
+body {
+    font-family: 'Cinzel', serif; /* Elegant, Oscars-style font */
+    background-color: #0A0A0A; /* Dark background for contrast */
+    color: #D4AF37; /* Gold color for text */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #FFFFFF; /* White color for the header */
+    text-shadow: 2px 2px 4px #000000; /* Shadow for depth */
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #D4AF37;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFFFFF; /* White color on hover */
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+section h2, section h3 {
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+section img {
+    border: 5px solid #D4AF37; /* Gold border around images */
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+section img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Paragraph Styling */
+p {
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #D4AF37;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section img {
+        width: 100%;
+        height: auto;
+    }
+}
